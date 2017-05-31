@@ -13,7 +13,7 @@ class YoutubeFieldProvider implements FieldProviderInterface
      */
     public function getField($attribute)
     {
-        return 'JulienAnquetil-youtube-field';
+        return 'julienanquetil-youtube-field';
     }
     /**
      * {@inheritdoc}
