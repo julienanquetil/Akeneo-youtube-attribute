@@ -1,0 +1,8 @@
+parameters:
+    JulienAnquetil.YoutubeAttribute.provider.field.youtube.class: JulienAnquetil\YoutubeAttributeBundle\Enrich\Provider\Field\YoutubeFieldProvider
+
+services:
+    JulienAnquetil.YoutubeAttribute.provider.field.youtube:
+        class: '%JulienAnquetil.YoutubeAttribute.provider.field.youtube.class%'
+        tags:
+            - { name: pim_enrich.provider.field, priority: 90 }

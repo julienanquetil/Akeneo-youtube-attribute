@@ -1,0 +1,4 @@
+config:
+    paths:
+        julienanquetil/youtube-field : julienanquetilyoutubeattribute/js/product/field/youtube
+        julienanquetil/template/product/field/youtube: julienanquetilyoutubeattribute/templates/product/field/youtube.html
